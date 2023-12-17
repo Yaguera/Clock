@@ -59,3 +59,10 @@ body {
     height: 18px;
     transform: translateY(1px);
 }
+
+.number-hours span p {
+    color: #0ef;
+    font-size: 52px;
+    text-shadow: 0 0 10px #0ef;
+    transform: rotate(calc(var(--index) * -30deg));
+}
